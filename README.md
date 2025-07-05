@@ -78,4 +78,4 @@ Someone who can improve the ASCII art for BSD. I half-assed the art.
 
 ## License
 
-[MIT](LICENSE) (or your chosen license)
+[GnuGPL v3](LICENSE)
