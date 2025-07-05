@@ -63,7 +63,6 @@ pkg install freebasic
     ./Whatthefetch
     ```
 
-## Adding into PATH
 
 ## Add Whatthefetch to Your PATH
 
