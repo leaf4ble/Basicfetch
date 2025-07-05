@@ -63,6 +63,53 @@ pkg install freebasic
     ./Whatthefetch
     ```
 
+## Adding into PATH
+
+## Add Whatthefetch to Your PATH
+
+To run `Whatthefetch` from anywhere in your terminal, move the compiled executable to a directory in your `PATH`.
+
+### For your user only
+
+```bash
+mkdir -p ~/.local/bin
+mv Whatthefetch ~/.local/bin/
+```
+
+Make sure `~/.local/bin` is in your `PATH`. You can check with:
+
+```bash
+echo $PATH
+```
+
+If it’s not, add this line to your `~/.bashrc`, `~/.zshrc`, or equivalent:
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Then reload your shell:
+
+```bash
+source ~/.bashrc
+# or
+source ~/.zshrc
+```
+
+### For all users (requires elevated priveleges, use `su`, `sudo`, `doas` or log in as root`
+
+```bash
+sudo mv Whatthefetch /usr/local/bin/
+```
+
+Now you can run:
+
+```bash
+Whatthefetch
+```
+
+from any directory!
+
 ---
 
 ## Contributing
